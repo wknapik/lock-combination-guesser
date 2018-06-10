@@ -35,7 +35,7 @@ The results are surprisingly good, though a sample of 1 is hardly a basis for
 any far reaching conclusions ;] With the constants as currently set in the
 script, when fed the combinations I observed for a 4-digit lock, it usually
 produces the correct combination within at most 220 guesses, depending on the
-order of inputs, with a correct guess most often within the first 100.
+subset of inputs used, with a correct guess most often within the first 100.
 
 The guesses are printed in an order that usually requires only one digit to be
 changed to try the next one, so assuming 2 seconds to test a combination, it
