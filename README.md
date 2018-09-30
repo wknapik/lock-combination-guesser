@@ -39,8 +39,7 @@ subset of inputs used, with a correct guess most often within the first 100.
 
 The guesses are printed in an order that usually requires only one digit to be
 changed to try the next one, so assuming 2 seconds to test a combination, it
-would take 3min20s to try 100 guesses and 7min20s to try 220, which would make
-this a reasonably practical attack.
+would take 3min20s to try 100 guesses and 7min20s to try 220.
 
 # Tweaks ?
 There are two constants that can be used to tweak the results, their meaning is
@@ -50,6 +49,6 @@ A higher value of MAX_SCORE may increase the number of guesses per position, up
 to MAX_CAND.
 
 Considering straight up brute force requires at most 10 \*\* NUM_OF_DIGITS
-attempts, the default MAX_CAND value of 5 reduces the number of cominations to
-try by 2 orders of magnitude for a 4-digit combination. That would the
+attempts, the default MAX_CAND value of 5 reduces the number of combinations to
+try by 2 orders of magnitude for a 4-digit combination. That would be the
 difference between trying for 20min and trying for 5h30min.
